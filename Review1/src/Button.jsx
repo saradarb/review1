@@ -4,11 +4,13 @@ function Button() {
 
     
 
-    const handleClick = e.target.display = "none";
-    
+    const handleclick = (e) => e.target.style.display = "none";
+
+
+
 
   return (
-    <button onClick={(e) => handleClick(e) }> Click Me </button>
+    <button onClick={(e) =>handleclick(e)} > Click me to hide me </button>
   )
 }
 
