@@ -1,6 +1,7 @@
 import React from 'react'
-import Button from './Button'
-import ProfilePicture from './ProfilePicture'
+
+import Problem3 from './Problem3'
+
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <>
     
     
-    <Button />
+    <Problem3 />
   
 
 
